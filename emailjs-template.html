@@ -1,0 +1,46 @@
+<!-- EmailJS Template Sample -->
+<!-- Copy this template to your EmailJS dashboard -->
+
+<div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f9f9f9;">
+    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; text-align: center; border-radius: 10px 10px 0 0;">
+        <h1 style="color: white; margin: 0; font-size: 24px;">Nouveau Message de Contact</h1>
+        <p style="color: #e0e0e0; margin: 10px 0 0 0;">Genesis Media Studio</p>
+    </div>
+    
+    <div style="background: white; padding: 30px; border-radius: 0 0 10px 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        <h2 style="color: #333; margin-top: 0;">Détails du Contact</h2>
+        
+        <div style="margin-bottom: 20px;">
+            <strong style="color: #667eea;">Nom:</strong> {{from_name}}
+        </div>
+        
+        <div style="margin-bottom: 20px;">
+            <strong style="color: #667eea;">Email:</strong> {{from_email}}
+        </div>
+        
+        <div style="margin-bottom: 20px;">
+            <strong style="color: #667eea;">Téléphone:</strong> {{phone}}
+        </div>
+        
+        <div style="margin-bottom: 20px;">
+            <strong style="color: #667eea;">Service demandé:</strong> {{service}}
+        </div>
+        
+        <div style="margin-bottom: 20px;">
+            <strong style="color: #667eea;">Demande de rappel:</strong> {{request_callback}}
+        </div>
+        
+        <div style="margin-bottom: 20px;">
+            <strong style="color: #667eea;">Message:</strong>
+            <div style="background: #f8f9fa; padding: 15px; border-left: 4px solid #667eea; margin-top: 10px; border-radius: 5px;">
+                {{message}}
+            </div>
+        </div>
+        
+        <hr style="border: none; border-top: 1px solid #eee; margin: 30px 0;">
+        
+        <p style="color: #666; font-size: 14px; margin: 0;">
+            Ce message a été envoyé depuis le formulaire de contact du site Genesis Media Studio.
+        </p>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+Simple EmailJS Template for Testing
+=====================================
+
+Copy and paste this into your EmailJS template editor:
+
+Subject: Nouveau message de {{from_name}}
+
+Bonjour,
+
+Vous avez reçu un nouveau message de contact:
+
+Nom: {{from_name}}
+Email: {{from_email}}
+Téléphone: {{phone}}
+Service: {{service}}
+Rappel demandé: {{request_callback}}
+
+Message:
+{{message}}
+
+---
+Envoyé depuis le site web
